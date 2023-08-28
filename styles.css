@@ -4,14 +4,17 @@ body{
 }
 .header{
    text-align: center;
+	padding:12px;
    background-color: #011e29;
    color: white;
    
 }
 .container{
   
-   display:flex;
-   justify-content:space-around;
+  display:flex;
+	flex-direction:row;
+gap:92px;
+
    
 }
 
@@ -22,7 +25,7 @@ body{
    
    border-radius: 5px;
    width: 100px;
-   height: 150px;
+   height: 250px;
    background-color: white;
    position: relative;
    left:30px;
